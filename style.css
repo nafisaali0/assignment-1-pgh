@@ -26,12 +26,11 @@ h2 {
 }
 h3 {
   color: #272727;
-  /* text-align: center; */
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 35px;
-  /* text-decoration-line: underline; */
+  text-decoration-line: underline;
 }
 p {
   color: rgba(39, 39, 39, 0.6);
@@ -52,23 +51,26 @@ span {
   color: #e55473;
 }
 .btn-primary {
-  background-color: var(--btn-primary);
+  background-color:#e55473;
   color: white;
   padding: 15px 40px;
   border-radius: 8px;
-  box-shadow: 0 0 2px var(--btn-primary);
+  box-shadow: 0 0 2px #e55473;
   border: none;
   margin-top: 20px;
+  cursor: pointer;
 }
 .container {
   max-width: 1580px;
-  /* max-width: 1920px; */
   margin-inline: auto;
   padding: 20px;
 }
 .section-heading {
   text-align: center;
   margin-top: 50px;
+}
+.section-mg{
+    margin-top: 50px;
 }
 /* nav start */
 nav {
@@ -91,10 +93,10 @@ footer h2 {
 .nav-btn {
   background: none;
   color: white;
-  border: 1px solid var(--btn-primary);
+  border: 1px solid #e55473;
 }
 .nav-btn:hover {
-  background-color: var(--btn-primary);
+  background-color:#e55473;
   color: white;
 }
 /* nav end */
@@ -115,27 +117,19 @@ footer h2 {
 }
 /* hero section end */
 /* featured section start */
-
-/* border-radius: 140px 140px 0 0; */
-
 .feature-card {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  padding: 80px;
-  /* background: #e55473; */
+  margin-top: 80px;
 }
 .ft-card {
-  padding: 16px;
   background: white;
-  border-radius: 0.25rem;
   overflow: hidden;
 }
 .ft-img {
   padding: 100px 0 0 0;
   overflow: hidden;
-  /* border-radius: 220px 220px 0 0; */
   border-radius: 300px 300px 0px 0px;
 }
 .ft-img > img {
@@ -152,8 +146,25 @@ footer h2 {
 .ft-img-three {
   background: rgba(71, 125, 17, 0.15);
 }
-.ft-text{
-    text-align: center;
-    margin-top: 20px;
+.ft-text {
+  text-align: center;
+  margin-top: 20px;
 }
 /* featured section end */
+/* sign up section start */
+.signup-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-left{
+    width: 50%;
+text-align: center;
+}
+.signup-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+/* sign up section end */
