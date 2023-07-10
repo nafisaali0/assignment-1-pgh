@@ -6,9 +6,10 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-:root {
+/* :root {
   --btn-primary: #e55473;
-}
+} */
+/* common style start */
 h1 {
   color: #272727;
   font-size: 80px;
@@ -38,7 +39,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 a {
   text-decoration: none;
@@ -67,11 +68,17 @@ span {
 }
 .section-heading {
   text-align: center;
-  margin-top: 50px;
+  margin: 100px 0 ;
+}
+.section-heading p {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .section-mg{
     margin-top: 50px;
 }
+/* common style end */
 /* nav start */
 nav {
   background: #000;
@@ -121,7 +128,7 @@ footer h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 .ft-card {
   background: white;
@@ -168,3 +175,10 @@ text-align: center;
     align-self: center;
 }
 /* sign up section end */
+/* instagram section start */
+.insta-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* instagram section end */
