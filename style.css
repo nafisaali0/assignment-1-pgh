@@ -61,7 +61,7 @@ span {
   cursor: pointer;
 }
 .container {
-  max-width: 1580px;
+  max-width: 1500px;
   margin-inline: auto;
   padding: 20px;
 }
@@ -157,6 +157,10 @@ footer h2 {
   margin-top: 20px;
 }
 /* featured section end */
+/* delivery section start*/
+
+/* delivery section end*/
+
 /* sign up section start */
 .signup-section {
   background: rgba(229, 84, 115, 0.05);
@@ -212,3 +216,20 @@ p {
   text-align: center;
 }
 /* subscription section end */
+/* footer section start */
+footer {
+  background: #000;
+  height: 50vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content h2 {
+  text-align: center;
+}
+.footer-content p {
+  color: white;
+}
+/* footer section end */
