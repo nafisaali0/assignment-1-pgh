@@ -31,6 +31,7 @@ h3 {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+  margin-top: 20px;
 }
 p {
   color: rgba(39, 39, 39, 0.6);
@@ -39,6 +40,7 @@ p {
   font-weight: 400;
   line-height: 30px;
   margin-top: 25px;
+  
 }
 a {
   text-decoration: none;
@@ -113,6 +115,9 @@ footer h2 {
 .hero-left {
   max-width: 700px;
 }
+.hero-left p{
+    text-align: left;
+}
 .hero-right img {
   margin-bottom: -20px;
 }
@@ -160,10 +165,29 @@ footer h2 {
 /* delivery section start*/
 
 /* delivery section end*/
-
+.delivery-section{
+    margin: 150px 0;
+}
+.delivery-content{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+}
+.delivery-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-card h3{
+    text-decoration-line: none;
+}
 /* sign up section start */
 .signup-section {
   background: rgba(229, 84, 115, 0.05);
+  padding:110px 0;
 }
 .signup-content {
   display: flex;
@@ -211,8 +235,7 @@ footer h2 {
   border: none;
   outline: 0;
 }
-.subscription-form h2,
-p {
+.subscription-form h2,p {
   text-align: center;
 }
 /* subscription section end */
